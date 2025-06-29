@@ -1,0 +1,21 @@
+# Datasets download on first run
+data/
+
+# Model checkpoints
+*.pth
+*.pt
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

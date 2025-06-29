@@ -1,0 +1,25 @@
+# Core
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+pandas>=2.0
+
+# Image handling
+Pillow>=10.0
+opencv-python>=4.8
+albumentations>=1.3,<2.0   # notebook 2 uses A.ElasticTransform(alpha_affine=...)
+
+# Pretrained backbones (notebook 2)
+timm>=0.9
+efficientnet-pytorch>=0.7
+
+# Metrics and plotting
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+
+# Utilities
+torchsummary>=1.5
+tqdm>=4.65
+kaggle>=1.5              # dataset download in the first cell of each notebook
+jupyterlab>=4.0
